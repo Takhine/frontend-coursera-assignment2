@@ -1,0 +1,62 @@
+/*BASE STYLES*/
+*{
+	box-sizing: border-box;
+}
+.row{
+	width: 100%;
+}
+div{
+	background-color: #eee;
+	border:2px solid #000;
+	margin: 10px 15px;
+	position: relative;
+	padding: 40px 15px 2px 15px;
+}
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+h3{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	border:2px solid #000;
+	margin: 0;
+	padding: 5px 15px;
+	border-top: none;
+	border-right: none;
+	width:150px;
+	text-align: center;
+}
+#red{
+	background-color: #dc4c4c;
+}
+#green{
+	background-color: #4cdc4c;
+}
+#blue{
+	background-color: #4c4cdc;
+}
+/*DESKTOP STYLES*/
+@media (min-width: 992px){
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	}
+}
+/*TABLET STYLES*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+}
+/*MOBILE STYLES*/
+@media (max-width: 767px){
+
+}
